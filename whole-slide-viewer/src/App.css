@@ -1,0 +1,378 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #A0C4FF, #FFC3A0);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cell-stats-section {
+  width: 40%;
+}
+
+.image-section {
+  width: 100%;
+  position: relative;
+}
+
+.image-view {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.right-top-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.zoom-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.magnification,
+.brightness-adjuster,
+.share-options {
+  margin-top: 20px;
+}
+
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  background: #4A90E2;
+  color: white;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode {
+  background: #333;
+  color: #f0f4f8;
+}
+
+.dark-mode .header {
+  background: #222;
+}
+
+.dark-mode-toggle {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #357ABD;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.image-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 60%;
+  margin-top: 20px;
+}
+
+.zoom-controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  background: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+}
+
+.zoom-controls button:hover {
+  background: darkblue;
+}
+
+.right-top-corner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.help-section,
+.tutorial-section {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin: 20px 0;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+.report-button {
+  background: #e94e77;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.report-button:hover {
+  background: #d73c6d;
+}
+
+
+
+.zoomable-image {
+  width: 100%; 
+}
+
+.fixed-image {
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  width: 100px; 
+  height: auto;
+  border: 2px solid white;
+  border-radius: 5px; 
+}
+
+.main-content {
+  display: flex;
+}
+
+.left-section {
+  width: 40%;
+  padding: 20px;
+}
+
+.right-section {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.zoomable-image {
+  width: 100%;
+  flex: 1;
+}
+
+.fixed-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fixed-image {
+  width: 150px;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Controls section below images */
+.controls-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.controls-section button {
+  margin: 10px 0;
+}
+
+.pdf-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pdf-button:hover {
+  background-color: #0056b3;
+}
+
+.dark-mode-toggle {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #555;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+.dark-mode .fixed-image {
+  border-color: #555;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cell-stats-section {
+  width: 40%;
+}
+
+.image-section {
+  width: 50%;
+  position: relative;
+}
+
+.zoomable-image-container {
+  position: relative;
+}
+
+.image-view {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-view img {
+  max-width: 100%;
+}
+
+.fixed-image-container {
+  margin-top: 20px; /* Adjust this for spacing */
+}
+
+.fixed-image {
+  width: 100px; /* Adjust this size as needed */
+}
+
+.zoom-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.magnification,
+.brightness-adjuster,
+.share-options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: col;
+}
+
+
+.cell-stats {
+  margin: 20px; /* Space around the cell stats section */
+  padding: 10px; /* Inner padding */
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+table {
+  width: 100%; /* Full width of the parent container */
+  border-collapse: collapse; /* Merge borders of adjacent cells */
+  margin-top: 10px; /* Space above the table */
+}
+
+th, td {
+  padding: 12px; /* Space inside each cell */
+  text-align: left; /* Align text to the left */
+  border-bottom: 1px solid #ddd; /* Light gray border for rows */
+}
+
+th {
+  background-color: #e3cdcd; 
+  font-weight: bold; 
+}
+
+tr:hover {
+  background-color: rgba(200, 200, 255, 0.2); 
+}
+
+tbody tr:last-child td {
+  border-bottom: none; 
+}
