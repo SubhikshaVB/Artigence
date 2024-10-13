@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/https://github.com/SubhikshaVB/Artigence/tree/main/static/css/main.41f844e0.css",
+    "main.js": "/https://github.com/SubhikshaVB/Artigence/tree/main/static/js/main.a2876f10.js",
+    "static/js/453.0aa00d45.chunk.js": "/https://github.com/SubhikshaVB/Artigence/tree/main/static/js/453.0aa00d45.chunk.js",
+    "static/media/sample-image.png": "/https://github.com/SubhikshaVB/Artigence/tree/main/static/media/sample-image.263c8d96881bdeb94d4a.png",
+    "index.html": "/https://github.com/SubhikshaVB/Artigence/tree/main/index.html",
+    "main.41f844e0.css.map": "/https://github.com/SubhikshaVB/Artigence/tree/main/static/css/main.41f844e0.css.map",
+    "main.a2876f10.js.map": "/https://github.com/SubhikshaVB/Artigence/tree/main/static/js/main.a2876f10.js.map",
+    "453.0aa00d45.chunk.js.map": "/https://github.com/SubhikshaVB/Artigence/tree/main/static/js/453.0aa00d45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41f844e0.css",
+    "static/js/main.a2876f10.js"
+  ]
+}
